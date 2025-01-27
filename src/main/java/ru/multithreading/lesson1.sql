@@ -5,12 +5,14 @@ CREATE TABLE product
     price BIGINT,
     type  TEXT
 );
+
 CREATE TABLE customer
 (
     id   BIGINT,
     name VARCHAR(30),
     type TEXT
 );
+
 CREATE TABLE "order"
 (
     Id       BIGINT,
